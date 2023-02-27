@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Napisz do Nas!</title> <link rel="stylesheet" href="napisz.css">
+</head>
+<body>
+    <div class="naglowek">
+
+        <h3>Nazwa<br> Firmy</h3>
+        <img src="img/logo.png" alt="logo">
+
+        <ul>
+            <li><a id="uslugi" href="uslugi.html">Usługi</a></li>
+            <li><a href="onas.html">O nas</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+            <li><a id="napisz" href="napisz.html" id="napisz">Napisz Do Nas!</a></li>
+          </ul>
+
+    </div>
+
+
+    <div class="wiado">
+
+    <div class="wiadomosc">
+        <h1>Napisz do Nas:</h1><br><br>
+        <form id="napis">
+            <label for="imie">Imie:</label><br>
+            <input type="text" name="imie" id="imie" required><br>
+            <label for="nazwisko">Nazwisko:</label><br>
+            <input type="text" name="nazwisko" id="nazwisko" required><br><br>
+
+            <label for="wybi">Wybierz powód:</label><br>
+            <select name="wybi" id="wybi" required>
+
+                <option value="wspolpraca">Współpraca</option>
+                <option value="biznes">Biznes</option>
+                <option value="reklama">Reklama</option>
+                <option value="podanie">Podanie</option>
+
+            </select><br><br>
+            <label for="pow">Opis (opcjonalnie):</label><br>
+            <textarea maxlength="256" rows="5" cols="30" placeholder="max.256" id="pow" name="pow"></textarea><br><br>
+
+            <input type="submit" value="Wyślij">
+        </form>
+    </div>
+
+</div>
+
+<div class="stopka">
+    <p>Strona zrobiona przez: Adam Stępień 1P</p>
+</div>
+
+</body>
+</html>

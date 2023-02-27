@@ -1,0 +1,144 @@
+* {
+    margin: 0px;
+}
+
+/*-----------------------------*/
+
+.naglowek { /* do zmiany w szkole*/
+    background-color: red;
+    height: 70px;
+    width: 100%;
+
+}
+
+.naglowek img{ /* do zmiany w szkole*/
+    margin-top: 8px;
+    height: 50px;
+    margin-left: 100px;
+}
+
+.naglowek h3 { /* do zmiany w szkole*/
+    position: absolute;
+    top: 12px;
+    left: 150px;
+    margin-left: 10px;
+    color: white;
+}
+
+/*-----------------------------*/
+
+ul { 
+    margin-top: 20px;
+    list-style-type: none;
+    float: right;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+li {
+    display: inline;
+}
+
+li a {
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+    border-radius: 70px;
+  background-color: #111;
+}
+
+/*-----------------------------*/
+
+#uslugi {
+    color: grey;
+    background-color: rgb(255, 255, 255);
+    border-radius: 70px;
+}
+
+/*-----------------------------*/
+
+#zglos { /* do zmiany w szkole*/
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+#zglos label {
+    font-size: 20px;
+}
+
+hr {
+    border: 2px black solid;
+    height: 6px;
+}
+
+/*-----------------------------*/
+
+.swiadczymy {
+    text-align: center;
+    background-color:blanchedalmond ;
+}
+
+.swiadczymy h2 {
+    font-size: 27px;
+}
+
+.swiadczymy p { /* do zmiany w szkole*/
+    font-size: 18px;
+}
+
+/*-----------------------------*/
+
+.cennik { /* do zmiany w szkole*/
+    padding-left: 300px;
+    background-color:blanchedalmond ;
+}
+
+.cennik h2 { /* do zmiany w szkole*/
+    font-size: 27px;
+}
+
+.cennik p { /* do zmiany w szkole*/
+    font-size: 18px;
+}
+
+/*-----------------------------*/
+
+.dokumenty { /* do zmiany w szkole*/
+    padding-left: 900px;
+    background-color:blanchedalmond ;
+}
+
+.dokumenty h2 {
+    font-size: 27px;
+}
+
+.dokumenty p {
+    font-size: 18px;
+}
+
+/*-----------------------------*/
+
+.zast { 
+    background-color: rgb(170, 84, 84);
+    text-align: center;
+}
+
+.zast p {
+    font-size: 20px;
+}
+
+.stopka {
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    clear: both;
+    background-color: rgb(25, 25, 25);
+}
+
+/*-----------------------------*/

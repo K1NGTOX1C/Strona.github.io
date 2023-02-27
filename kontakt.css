@@ -1,0 +1,102 @@
+* {
+    margin: 0px;
+}
+
+.naglowek {
+    background-color: red;
+    height: 70px;
+    width: 100%;
+
+}
+
+.naglowek img{
+    margin-top: 8px;
+    height: 50px;
+    margin-left: 100px;
+}
+
+.naglowek h3 {
+    position: absolute;
+    top: 12px;
+    left: 150px;
+    margin-left: 10px;
+    color: white;
+}
+
+ul {
+    margin-top: 20px;
+    list-style-type: none;
+    float: right;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+li {
+    display: inline;
+}
+
+li a {
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+    border-radius: 70px;
+  background-color: #111;
+}
+
+#kont {
+    color: grey;
+    background-color: white;
+    border-radius: 70px;
+}
+
+.adres {
+    padding-left: 500px; /* do zmiany w szkole*/
+    background-color: rgb(198, 23, 23);
+}
+
+.adres h1 {
+    color: white;
+    margin-left: 250px; /* do zmiany w szkole*/
+}
+
+.adres1 {
+    padding-top: 50px; /* do zmiany w szkole*/
+    background-color: rgb(255, 170, 0);
+    padding-bottom: 80px; /* do zmiany w szkole*/
+}
+
+.adres1 h3 {
+    color: white;
+    font-size: 23px;
+    padding-top: 20px;
+    margin-left: 500px; /* do zmiany w szkole */
+}
+
+.adres1 p {
+    color: white;
+    font-size: 17px;
+    margin-left: 500px; /* do zmiany w szkole */
+}
+
+.adres1 a {
+
+    background-color: rgb(100, 100, 100);
+    border-radius: 70px;
+}
+
+.adres1 a:visited {
+    color: rgb(255, 255, 255);
+}
+
+.stopka {
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px; 
+    clear: both;
+    background-color: rgb(25, 25, 25);
+}

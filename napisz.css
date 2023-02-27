@@ -1,0 +1,79 @@
+* {
+    margin: 0px;
+}
+
+.naglowek { /* do zmiany w szkole*/
+    background-color: red;
+    height: 70px;
+    width: 100%;
+
+}
+
+.naglowek img{ /* do zmiany w szkole*/
+    margin-top: 8px;
+    height: 50px;
+    margin-left: 100px;
+}
+
+.naglowek h3 { /* do zmiany w szkole*/
+    position: absolute;
+    top: 12px;
+    left: 150px;
+    margin-left: 10px;
+    color: white;
+}
+
+ul { /* do zmiany w szkole*/
+    margin-top: 20px;
+    list-style-type: none;
+    float: right;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+li {
+    display: inline;
+}
+
+li a {
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover { 
+    border-radius: 70px;
+  background-color: #111;
+}
+
+#napisz {
+    color: grey;
+    background-color: white;
+    border-radius: 70px;
+}
+
+.wiadomosc { /* do zmiany w szkole*/
+    background-color: bisque;
+    margin-left: 400px;
+    margin-right: 400px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border: 3px black solid;
+    text-align: center;
+}
+
+.wiado {
+    background-color: rgb(247, 179, 90);
+    padding: 150px; /* do zmiany w szkole*/
+}
+
+
+.stopka {  
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    clear: both;
+    background-color: rgb(25, 25, 25);
+}
